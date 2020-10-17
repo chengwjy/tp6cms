@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百要之媒</title>
+    <meta name="description" content="百花盛开,百要之媒,百年传承.">
+    <meta name="keywords" content="百要之媒">
+</head>
+<style>
+    *{
+        padding:0;
+        margin:0;
+    }
+</style>
+<body>
+    <div style="width: 100%;">
+    {volist name="list" id="vo"}
+    <img src="{$vo.url}" alt="" style="width: 100%;">
+    {/volist}
+    </div>
+</body>
+</html>
